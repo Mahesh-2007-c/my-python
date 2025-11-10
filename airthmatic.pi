@@ -1,0 +1,23 @@
+#arithmatic operation
+a = int(input("enter number 5 "))
+b = int(input("enter number 9 "))
+#addition
+sum=a+b
+print("addition is",sum)
+
+a = str(input("enter name python "))
+b = str(input("enter name program "))
+#addition
+sum=a+b
+print("addition is",sum)
+
+a = float(input("enter number9.76 "))
+b = float(input("enter number 10.99 "))
+#substraction
+sum=a-b
+sum1=a+b
+sum2=a*b
+sum3=a/b
+sum4=a//b
+sum5=a**b
+print("substraction is",sum,sum1,sum2,sum3,sum4,sum5)
