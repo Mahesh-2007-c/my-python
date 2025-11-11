@@ -1,0 +1,8 @@
+#if elif
+a = int(input("enter the number"))
+if a>90:
+  print("the number is positive")
+elif a>70:
+  print("the number is negative")
+else:
+   print("the is zero") 
