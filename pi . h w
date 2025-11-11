@@ -1,0 +1,15 @@
+num1 = int(input("enter the first number"))
+num2 = int(input("enter the second number"))
+result=num1+num2
+print("sum is",result)
+
+a = int(input("enter the number 9"))
+b = int(input("enter the number 4"))
+#addition
+sum=a+b
+print("sum is",sum)
+
+pi = 3.14
+radius=float(input("enter the radius"))
+area=pi*radius*radius
+print("area is",area)
