@@ -1,0 +1,197 @@
+#if condition
+a = int(input("enter your age"))
+if a>=18:
+  print("your eligibale for election")
+enter your age19
+your eligibale for election
+#odd or even
+  
+a = int(input("enter the number"))
+if a%2==0:
+  print("even number")
+else:
+  print("odd number")
+enter the number7
+odd number
+
+
+#exam result
+a = int(input("enter your marks"))
+if a>=95:
+  print("grade A+") 
+elif a>=80:
+   print("grade A")
+elif a>=70:
+   print("grade B+")   
+elif a>=60:
+   print("grade B")
+elif a==50:
+   print("grade C") 
+else :
+  print("fail")
+enter your marks95
+grade A+
+#odd or even
+     
+a = int(input("enter the number"))
+if a%5==0:
+  print("even number")
+else:
+  print("odd number")
+enter the number10
+even number
+
+#if elif
+a = int(input("enter the number"))
+if a>90:
+  print("the number is positive")
+elif a>70:
+  print("the number is negative")
+else:
+   print("the is zero") 
+enter the number75
+the number is negative
+    
+#largest two number
+num1 = int(input("enter the first number"))
+num2 = int(input("enter the second number"))
+if num1>num2:
+  print(num1,"is largest number")
+  print(num2,"is smalest number")
+else:
+  print(num1,"is a smalest number")    
+enter the first number5
+enter the second number9
+5 is a smalest number
+    
+#largest three number
+num1 = int(input("enter the first number"))
+num2 = int(input("enter the second number"))
+num3 = int(input("enter the third number"))
+if num1>num2 and num1>num3:
+  print(num1,"is largest number")
+  print(num2,"is smalest number")
+  print(num3,"is smalest number")
+  enter the first number9
+enter the second number7
+enter the third number5
+9 is largest number
+7 is smalest number
+5 is smalest number
+
+#leap year
+year = int(input("enter the year"))
+if year%4==0:
+  print(year,"is a leap year")
+  if year%100==0:
+    print(year,"is a leap year")
+    if year%400==0:
+      print(year,"is a leap year")
+else:
+  print(year,"is not a leap year")
+enter the year100
+100 is a leap year
+100 is a leap year
+
+#voting eligibility
+a = int(input("enter your age"))
+if a>=18:
+  print("you are eligible for voting")
+else:
+  print("your not eligible for voting") 
+enter your age19
+you are eligible for voting
+
+
+#grade calculation
+a = int(input("enter your marks"))
+if a>=90:
+  print("grade A")
+elif a>=75:
+  print("grade B")
+elif a>=50:
+  print("grade c")
+else:
+  prinr("fail")      
+enter your marks95
+grade A
+
+enter your age19
+you are eligible for voting
+
+#character type check
+#let=a,e,i,o,u
+a = int(input("enter the character"))
+print("vowel leter")
+
+#even/odd and positive/negative combination
+a = int(input("enter the number"))
+if a%2==0:
+  print("even number")
+  if a>0:
+    print("positive number")
+else:
+  print("odd number")
+  if a<0:
+    print("negative number") 
+enter the number5
+odd number
+
+
+
+#for loop
+for i in range(1,50):
+  if a%5==0:
+    print("even number")
+else:
+   print("odd number")  even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+even number
+odd number
+  
