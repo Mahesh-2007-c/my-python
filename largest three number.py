@@ -1,0 +1,8 @@
+#largest three number
+num1 = int(input("enter the first number"))
+num2 = int(input("enter the second number"))
+num3 = int(input("enter the third number"))
+if num1>num2 and num1>num3:
+  print(num1,"is largest number")
+  print(num2,"is smalest number")
+  print(num3,"is smalest number")
