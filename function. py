@@ -1,0 +1,6 @@
+def shridevi():
+  name = (input("enter your name"))  
+  age = int(input("enter your age"))
+  rollno = int(input("enter your roolno"))
+  print(name,age,rollno)
+shridevi()
