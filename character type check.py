@@ -1,0 +1,7 @@
+#character type check
+ch = input("enter the character")
+if ch in "aeiouAEIOU":
+  print("the character is vowel")
+else:
+   print("the character is constant")
+
