@@ -1,0 +1,5 @@
+#types of argument
+#keyword argument
+def add1(age,name,roll):
+  print(age)
+add1(name="mahesh",age=19,roll=25)
