@@ -1,0 +1,6 @@
+#for loop
+for i in range(1,50):
+  if a%5==0:
+    print("even number")
+else:
+   print("odd number")
