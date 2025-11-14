@@ -1,0 +1,9 @@
+#distnory
+dag={
+    "age":45,
+    "wight":35,
+    "name":"vicky",
+    "collage":"siet",
+    "phoneno":81234
+}
+print(dag)
