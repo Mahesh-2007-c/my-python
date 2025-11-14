@@ -1,0 +1,5 @@
+#builtin moduies
+#import math
+import math
+ayy=math.sqrt(16)
+print(ayy)
