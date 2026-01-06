@@ -1,0 +1,13 @@
+#2B= Develop a program to read the name and year of birth of a person display wheather the person is senior citizen or not
+Name=input("enter your name:")
+year_of_birth=int(input("enter your year of birth:"))
+current_year=2026
+age=current_year-year_of_birth
+if age>=60:
+    print(Name,"is senior citizen")
+else:
+    print(Name,"is not senior citizen")
+
+enter your name:mahesh
+enter your year of birth:2006
+mahesh is not senior citizen
