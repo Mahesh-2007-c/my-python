@@ -1,0 +1,46 @@
+#1 Develop a python program to read two numbers
+#from keyword and peform a basis arithemitic operation based on the chjoice [1 add,2 substract,3 multiple,4 divided]
+#program:basis arityhmetic operation
+#read two numbers from keybord
+num1=int(input("enter first number:"))
+num2=int(input("enter second number:"))
+
+#show menu
+print("\n choose operation:")
+print("1 add")
+print("2 substract")
+print("3 multiple")
+print("4 divided")
+
+choice=int(input("enter choice(1-4):"))
+
+#perfotrm operation based on choice if
+choice==1
+if choice==1:
+    result=num1+num2
+    print("result:",result)
+elif choice==2:
+      result=num1-num2
+      print("result",result)
+
+elif choice==3:
+    result=num1*num2
+    print("result",result)
+elif choice==4:
+    result=num1/num2
+    print("result",result)
+
+else:
+  print("Invalid choice please select between 1-4")            
+  print("Invalid choice please select between 1-4")            
+  print("Invalid choice please select between 1-4")                                                                
+
+enter first number:5
+enter second number:9
+ choose operation:
+1 add
+2 substract
+3 multiple
+4 divided
+enter choice(1-4):1
+result: 14    
